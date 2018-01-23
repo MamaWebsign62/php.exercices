@@ -23,7 +23,7 @@ if(isset($_POST['submit'])){
 		$nom =  $_POST['nom'];
 		$prenom = $_POST['prenom'];
 		$mail = $_POST['mail'];
-		$to = 'dupontmarianne62@gmail.com';
+		$to = 'mregnault.netgyver62@gmail.com';
 		$subject = $_POST['objet'];
 		$message = $_POST['message'];
 
