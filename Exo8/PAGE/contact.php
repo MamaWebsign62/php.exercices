@@ -2,7 +2,7 @@
         <section id="Contact">
             <img src="IMG/flower5.jpg" width="1000" height="667" alt="plantes en pots">
 
-        <form id="form" method="post" action="cible.php" style="margin-top:30px;margin-bottom:20px;">
+        <form id="form" method="post" action="./PAGE/cible.php" style="margin-top:30px;margin-bottom:20px;">
         		<table width="100%" border="0" align="center" cellpadding="5" cellspacing="0">
                     <tbody>
                         <div>

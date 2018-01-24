@@ -1,20 +1,4 @@
 <?php
-  // Test si les champs sont remplis
-
-  // if (!empty($_POST['user_name']) && !empty($_POST['user_email']) && !empty($_POST['user_message']))
-  // {
-  //   $sex = $_POST['sex'];
-  //   $prenom = $_POST['prenom'];
-  //
-  // if ($sex=="M") {
-  //     echo "Bonjour Monsieur " .$prenom. " !";
-  //   } else {
-  //     echo "Bonjour Madame " .$prenom. " !";
-  //   }
-  // }
-  //
-  <?php
-session_start();
 
 if(isset($_POST['submit'])){
 
@@ -55,5 +39,4 @@ if(isset($_POST['submit'])){
 
 }
 
-?>
 ?>

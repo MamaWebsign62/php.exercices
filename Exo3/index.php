@@ -6,6 +6,9 @@
   </head>
   <body>
 
+<!-- Écrire un programme qui calcule la factorielle de 10.
+Factorielle de 10 : 1 * 2 * 3 * 4 * 5 * 6 * 7 * 8 * 9 * 10 -->
+
     <?php
     $result = 1;
     $i = 1; //compteur

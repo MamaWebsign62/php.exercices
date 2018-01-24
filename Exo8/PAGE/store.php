@@ -1,6 +1,6 @@
 <!--STORE-->
         <section id="Store">
-            <img src="IMG/store-img.jpg" width="1000" height="667" alt="plan de travail fleuriste">
+            <img src="IMG/store-img.jpg" width="1000" height="667" alt="plan de travail fleuriste" />
 
             <div class="bg-store">
                 <h2 class="title-store">Rose Boutique</h2>

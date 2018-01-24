@@ -5,6 +5,11 @@
     <title>Exercice 4</title>
   </head>
   <body>
+
+    <!-- Ecrire un programme qui calcule la factorielle de n.
+    Variable n = 8
+    1 * 2 * 3 * 4 * 5 * 6 * 7 * 8 -->
+
     <?php
     $result = 1;
     $i = 1; //compteur
