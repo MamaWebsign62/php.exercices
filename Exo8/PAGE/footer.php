@@ -1,6 +1,6 @@
 <!--FOOTER-->
        <footer>
-           <p>&copy; Copyright 2017 - Regnault Marianne<a href="mentions.html" class="legal-notice">Mentions légales</a></p>
+           <p>&copy; Copyright 2017 - Regnault Marianne<a href="./mentions.php" class="legal-notice">Mentions légales</a></p>
 
                <ul class="social-network-footer">
                     <li>

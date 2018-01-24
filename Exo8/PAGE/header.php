@@ -17,3 +17,4 @@
              </div>
 
              <?php require_once("PAGE/menu.php"); ?>
+           </header>
