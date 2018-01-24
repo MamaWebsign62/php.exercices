@@ -16,4 +16,4 @@
                  <img src="IMG/logo1.png" width="194" height="130" alt="logo de la fleuriste" />
              </div>
 
-             <?php include("PAGE/menu.php"); ?>
+             <?php require_once("PAGE/menu.php"); ?>
