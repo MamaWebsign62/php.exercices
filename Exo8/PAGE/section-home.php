@@ -15,12 +15,12 @@
 
         <!-- Espace de connexion -->
         <?php
-        if(!empty($_SESSION['user_id'])){
-          $form_connexion = "none";
-          $form_deco = "block";
-        }else{
-          $form_connexion = "block";
-          $form_deco = "none";
+        if(!empty($_SESSION['user_id'])){ // Si les champs ne sont pas vides
+          $form_connexion = "none"; // Je désactive le formulaire de connexion
+          $form_deco = "block"; // Et j'active le formulaire de déconnexion
+        }else{ // Sinon (si les champs sont vides)
+          $form_connexion = "block"; //J'active le formulaire de connexion
+          $form_deco = "none"; // Et je désactive le formulaire de déconnexion
         }
         ?>
 
