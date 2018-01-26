@@ -1,109 +1,197 @@
 @font-face {
-     font-family: 'Occupied';
-     src: url('FONT/Occupied.otf'),
-            url('FONT/Occupied Italic.otf');
+ font-family: 'Occupied';
+ src: url('FONT/Occupied.otf'),
+        url('FONT/Occupied Italic.otf');
 }
 @font-face {
-     font-family: 'Good-night';
-     src: url('../FONT/Good-night.ttf');
+ font-family: 'Good-night';
+ src: url('../FONT/Good-night.ttf');
 }
 body {
 
 }
 .container {
-    width: 1000px;
-    margin: 0 auto;
+  width: 1000px;
+  margin: 0 auto;
 }
 /******************************************HEADER***/
 .header {
-    width: 100%;
-    height: 140px;
+  width: 100%;
+  height: 140px;
 }
 #logo {
-    float: left;
+  float: left;
 }
 #logo img {
-    padding-top: 6px;
+  padding-top: 6px;
 }
 .navbar {
-    float: right;
-    height: 140px;
+  float: right;
+  height: 140px;
 }
 .navbar .menu {
-    margin: 0;
-    line-height: 140px;
-    float: left;
-    width: 600px;
-    padding: 0;
+  margin: 0;
+  line-height: 140px;
+  float: left;
+  width: 600px;
+  padding: 0;
 }
 .navbar .menu li {
-    display: inline-block;
-    width: 146px;
-    text-align: center;
+  display: inline-block;
+  width: 146px;
+  text-align: center;
 }
 .navbar .menu li a {
-    text-decoration: none;
-    font-family: Good-night;
-    font-style: normal;
-    font-size: 22px;
-    font-weight: bold;
-    color: #ef5e9f;
+  text-decoration: none;
+  font-family: Good-night;
+  font-style: normal;
+  font-size: 22px;
+  font-weight: bold;
+  color: #ef5e9f;
 }
 .navbar .menu li a:hover {
-    color: #75b36c;
+  color: #75b36c;
 }
 .uppercase-h {
-    font-size: 26px;
+  font-size: 26px;
 }
 .uppercase {
-    font-size: 36px;
+  font-size: 36px;
 }
 /*********************************************HOME***/
 #Home {
-    height: 666px;
-    opacity: 0.7;
-    position: relative;
+  height: 666px;
+  opacity: 0.7;
+  position: relative;
 }
 #Home img {
-    /*position: fixed;*/
-    background-size: content;
-    background: linear-gradient;
+  /*position: fixed;*/
+  background-size: content;
+  background: linear-gradient;
 }
+/******************************************FORM CONNEXION*/
+.form-connexion {
+  width: 20%;
+  position: absolute;
+  left: 867px;
+  top: 164px;
+}
+.form-connexion input {
+  width: 97.3%;
+  height: 25px;
+  border: 1px solid #000;
+  padding-left: 10px;
+  color: #ef5e9f;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 0.7em;
+}
+.form-connexion a button{
+  background-color: transparent;
+  border: 1px solid #000;
+  width: auto;
+  float: left;
+  height: 25px;
+  padding: 0 12px;
+  color: #ef5e9f;
+  font-size: 14px;
+  font-family: Occupied, sans-serif;
+  font-weight: 500;
+}
+.form-connexion a button:hover{
+  color: #75b36c;
+}
+.form-connexion .envoi {
+  width: 30%;
+  position: absolute;
+  left: 187px;
+}
+.form-connexion .envoi:hover {
+  color: #75b36c;
+}
+.form-connexion p {
+  font-size: 17px;
+  font-weight: 500;
+  margin-bottom: 1em;
+  margin-top: 0;
+  color: #75b36c;
+  font-weight: bold;
+  font-family: Occupied, sans-serif;
+}
+/******************************************FORM INSCRIPTION*/
+.form-inscription {
+  width: 65%;
+  position: inherit;
+  margin: 3em auto;
+  padding-bottom: 5em;
+}
+.form-inscription p {
+  font-size: 17px;
+  font-weight: 500;
+  margin-bottom: 1em;
+  margin-top: 0;
+  color: #75b36c;
+  font-weight: bold;
+  font-family: Occupied, sans-serif;
+}
+.form-inscription input {
+  width: 97.3%;
+  height: 25px;
+  border: 1px solid #000;
+  padding-left: 10px;
+  color: #ef5e9f;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 0.7em;
+}
+.form-inscription .envoyer {
+  width: 30%;
+  float: right;
+  margin-right: 0.35em;
+}
+.form-inscription .envoyer:hover {
+  color: #75b36c;
+}
+/*****************************************DECONNEXION*/
+#deconnexion .message-connexion {
+    font-size: 16px;
+    text-align: center;
+}
+/**************************************************************/
 #Home h1 {
-    position: absolute;
-    left: 25px;
-    top: 25px;
-    font-size: 22px;
-    font-family: Occupied, sans-serif;
-    /*color: #095228;*/
-    font-weight: bold;
-    margin-top: 0;
+  position: absolute;
+  left: 25px;
+  top: 25px;
+  font-size: 22px;
+  font-family: Occupied, sans-serif;
+  font-weight: bold;
+  margin-top: 0;
 }
 #Home p {
-    position: absolute;
-    top: 50px;
-    left: 25px;
-    right: 25px;
-    text-align: justify;
-    text-align-last: left;
-    font-size: 18px;
-    margin-top: 50px;
-    font-family: Occupied, sans-serif;
+  position: absolute;
+  top: 50px;
+  left: 25px;
+  right: 25px;
+  text-align: justify;
+  text-align-last: left;
+  font-size: 18px;
+  margin-top: 50px;
+  font-family: Occupied, sans-serif;
 }
 .bg-opacity {
-    background-color: #fff;
-    opacity: 0.6;
-    width: 600px;
-    height: 310px;
-    position: absolute;
-    top: 346px;
-    left: 10px;
+  background-color: #fff;
+  opacity: 0.6;
+  width: 600px;
+  height: 310px;
+  position: absolute;
+  top: 346px;
+  left: 10px;
 }
 .bg-opacity h1{
   color: #095228;
 }
 .bg-opacity:hover {
-    background-color: #000;
+  background-color: #000;
 }
 .bg-opacity:hover p{
   color: #fff;
@@ -112,98 +200,98 @@ body {
   color: #34C924;
 }
 .button-product {
-    position: absolute;
-    top: 250px;
-    left: 20px;
-    background-color: #ef5e9f;
-    padding: 10px 20px;
+  position: absolute;
+  top: 250px;
+  left: 20px;
+  background-color: #ef5e9f;
+  padding: 10px 20px;
 }
 .button-product:hover {
-    background-color: #095228;
+  background-color: #095228;
 }
 .button-product a {
-    font-size: 18px;
-    font-family: Occupied, sans-serif;
-    font-weight: bold;
-    color: #fff;
-    text-decoration: none;
+  font-size: 18px;
+  font-family: Occupied, sans-serif;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
 }
 /******************************************PRODUCT***/
 #Product {
-    clear: both;
+  clear: both;
 }
 #Product {
-    clear: both;
-    background-color: #c9aad6;
-    height: 666px;
-    background: -webkit-linear-gradient(right bottom, #c9aad6, #fff);
-    background: -o-linear-gradient(top left, #c9aad6, #fff);
-    background: -moz-linear-gradient(top left, #c9aad6, #fff);
-    background: linear-gradient(to top left, #c9aad6, #fff);
+  clear: both;
+  background-color: #c9aad6;
+  height: 666px;
+  background: -webkit-linear-gradient(right bottom, #c9aad6, #fff);
+  background: -o-linear-gradient(top left, #c9aad6, #fff);
+  background: -moz-linear-gradient(top left, #c9aad6, #fff);
+  background: linear-gradient(to top left, #c9aad6, #fff);
 }
 #Product img:hover {
-    background-color: #000;
-    opacity: 0.9;
+  background-color: #000;
+  opacity: 0.9;
 }
 #Product h2 {
-    margin: 0;
-    text-align: right;
-    padding: 50px 10px 100px 0;
-    font-size: 22px;
-    font-family: Occupied, sans-serif;
-    color: #861961;
-    font-weight: bold;
+  margin: 0;
+  text-align: right;
+  padding: 50px 10px 100px 0;
+  font-size: 22px;
+  font-family: Occupied, sans-serif;
+  color: #861961;
+  font-weight: bold;
 }
 .product-line {
-    width: 100%;
-    padding: 10px;
+  width: 100%;
+  padding: 10px;
 }
 .four-products {
-    background-image: url(../img/wood4.jpg);
-    max-width: 200px;
-    max-height: 260px;
-    padding: 15px;
-    margin-right: 18px;
-    border: 1px solid #861961;
-    width: 20%;
-    height: 260px;
-    float: left;
-    position: relative;
+  background-image: url(../img/wood4.jpg);
+  max-width: 200px;
+  max-height: 260px;
+  padding: 15px;
+  margin-right: 18px;
+  border: 1px solid #861961;
+  width: 20%;
+  height: 260px;
+  float: left;
+  position: relative;
 }
 .four-products img {
-    max-width: 100%;
-    max-height: 100%;
-    margin-bottom: 20px;
+  max-width: 100%;
+  max-height: 100%;
+  margin-bottom: 20px;
 }
 .scale {
-    transform: scaleX(-1);
+  transform: scaleX(-1);
 }
 h3.title-product {
-    text-align: left;
-    font-size: 14px;
-    font-family: Occupied, sans-serif;
-    color: #861961;
-    font-weight: bold;
-    float: left;
-    line-height: 10px;
+  text-align: left;
+  font-size: 14px;
+  font-family: Occupied, sans-serif;
+  color: #861961;
+  font-weight: bold;
+  float: left;
+  line-height: 10px;
 }
 .price {
-    width: 90px;
-    height: 40px;
-    float: left;
-    position: absolute;
-    right: 15px;
-    background-color: #861961;
-    opacity: 0.7;
-    line-height: 40px;
-    text-align: center;
-    color: #fff;
-    font-weight: bold;
-    font-size: 18px;
-    cursor: pointer;
+  width: 90px;
+  height: 40px;
+  float: left;
+  position: absolute;
+  right: 15px;
+  background-color: #861961;
+  opacity: 0.7;
+  line-height: 40px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
 }
 .price:hover {
-    background-color: #095228;
+  background-color: #095228;
 }
 /*****************************************STORE***/
 #Store {

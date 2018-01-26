@@ -13,7 +13,9 @@
  <!--HEADER-->
          <header class="header">
              <div id="logo">
+               <a href="index.php">
                  <img src="IMG/logo1.png" width="194" height="130" alt="logo de la fleuriste" />
+               </a>
              </div>
 
              <?php require_once("PAGE/menu.php"); ?>

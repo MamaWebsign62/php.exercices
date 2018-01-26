@@ -1,3 +1,4 @@
+<?php session_start();?>
 <!-- Recréer le début du site “Rose Prévost” en découpant le code avec la manière
 étudiée ( jusqu’a la partie 2 inclue ) -->
 
